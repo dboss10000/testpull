@@ -32,3 +32,4 @@ create a table in db of mantis
 for storing the assigned tasks
 which contains following fields
 (task_id,user_id,created_date)
+sadfsad
