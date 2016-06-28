@@ -1,0 +1,34 @@
+task>create drag,drop,sort,save module in php,jquery
+for mantis bug tracker
+
+create two lists with dropdown options(one list
+with project option drop down, second with user drop down)
+to assign tasks of a particular project to an user.
+
+list1> 
+represents tasks of a particular project
+by default all projects option of the dropdown list
+is selected and the task list shows all of the 
+tasks of all projects 
+these tasks are sorted acc to their priority. 
+when we will select a particular project
+from the dropdown list then in the list only
+tasks related to that particular project will
+be listed acc to their priority
+the priority of a task is represented as
+
+list2>
+represents a dropdown list options for users
+with their tasks listed
+on selecting a particular user from dropdown
+list his tasks will be listed.
+
+so from list1 we will drag tasks 
+and drop to list2
+the lists will be saved 
+ 
+db>
+create a table in db of mantis
+for storing the assigned tasks
+which contains following fields
+(task_id,user_id,created_date)
